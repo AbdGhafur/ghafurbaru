@@ -1,6 +1,10 @@
 # ghafurbaru
 
 A new Flutter project.
+![image](https://github.com/AbdGhafur/ghafurbaru/assets/92065915/4be1c217-253b-46a1-b07a-cf5021623860)
+![Screenshot 2023-06-21 195554](https://github.com/AbdGhafur/ghafurbaru/assets/92065915/70b34294-ecdd-4fb8-aee2-4879285527f9)
+
+
 
 ## Getting Started
 
