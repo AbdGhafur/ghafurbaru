@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "439992591669",
+    "project_id": "ghafurfirebase-b5557",
+    "storage_bucket": "ghafurfirebase-b5557.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439992591669:android:d21fd7cd83630f5bb6d87c",
+        "android_client_info": {
+          "package_name": "com.example.ghafurbaru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439992591669-at6qihv27uhg3n89r954kgs8dakn56qd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ghafurbaru",
+            "certificate_hash": "e6bd81599a408388179ba4dc86f562fafbd90d1b"
+          }
+        },
+        {
+          "client_id": "439992591669-oq4nh3hntkhv9qn94j5i3mf8vq2pqrcc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4oCwF24cwgPDz7qx9k4exwHruJFQZ2gY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439992591669-7ti5s5a4gh18g0chdkqq3osdn6gmmurp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
