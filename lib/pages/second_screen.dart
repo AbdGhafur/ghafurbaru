@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:ghafurbaru/pages/login.dart';
+import 'package:ghafurbaru/services/firebase_sign_in.dart';
 
-import '../services/firebase_sign_in.dart';
+import '../services/sign_in_biasa.dart';
 
-class FirstScreen extends StatelessWidget {
-  const FirstScreen({super.key});
+class SecondScreen extends StatelessWidget {
+  const SecondScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -14,50 +15,32 @@ class FirstScreen extends StatelessWidget {
             gradient: LinearGradient(
           begin: Alignment.topRight,
           end: Alignment.bottomLeft,
-          colors: [Colors.blue, Colors.lightBlue],
+          colors: [Colors.white, Colors.lightBlue],
         )),
         child: Center(
             child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           mainAxisSize: MainAxisSize.max,
           children: <Widget>[
-            CircleAvatar(
-              backgroundImage: NetworkImage(imageUrl),
-              radius: 60,
-              backgroundColor: Colors.transparent,
-            ),
-            const SizedBox(height: 40),
-            const Text('Nama: ',
-                style: TextStyle(
-                    fontSize: 15,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.black54)),
-            Text(
-              name,
-              style: const TextStyle(
-                  fontSize: 25,
-                  color: Colors.deepPurple,
-                  fontWeight: FontWeight.bold),
-            ),
             const SizedBox(height: 20),
             const Text(
               'Email',
               style: TextStyle(
                   fontSize: 15,
                   fontWeight: FontWeight.bold,
-                  color: Colors.black54),
+                  color: Colors.amber),
             ),
             Text(
               email,
               style: const TextStyle(
                   fontSize: 25,
-                  color: Colors.deepPurple,
+                  color: Colors.white,
                   fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 40),
             ElevatedButton(
               onPressed: () {
-                signOutGoogle();
+                signOut();
                 Navigator.of(context).pushAndRemoveUntil(
                   MaterialPageRoute(builder: (context) {
                     return const LoginPage();
